@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User:
- * Date: 2020/1/20
- * Time: 11:08 上午
- */
 
 namespace asher\core;
 

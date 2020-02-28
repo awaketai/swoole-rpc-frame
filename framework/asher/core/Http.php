@@ -73,9 +73,6 @@ class Http
      * worker start deal
      * @param $server
      * @param int $worker_id
-     * @Author:
-     * @Date:2020/1/20
-     * @Time:3:37 下午
      */
     public function onWorkerStart($server, int $worker_id){
         // 载入注解

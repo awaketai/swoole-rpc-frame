@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Asher
- * Date: 2020/1/17
- * Time: 16:47
- */
 
 namespace app\admin\controllers;
 
@@ -27,9 +21,5 @@ class AdminController
         $client->service('ListService')->version('1.0')->info(['id' => 1]);
         $client->service('InfoService')->version('1.0')->info(['test']);
         return 'admin - index';
-    }
-
-    public function a(){
-        echo '1';
     }
 }
