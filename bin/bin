@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+// $argv Array of arguments passed to script
+var_dump($argv);
+(new \asher\App())->run($argv);
+
+(new \app\api\controllers\TestController())->test2();
